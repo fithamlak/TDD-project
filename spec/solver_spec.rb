@@ -40,5 +40,11 @@ describe Solver do
       result = new_solver.fizzbuzz(15)
       expect(result).to eq('fizzbuzz')
     end
+
+    it 'Return N as a string (e.g. say N is 9 then return "9") in any other case' do
+      new_solver = Solver.new
+      result = new_solver.fizzbuzz(9)
+      expect(result).to eq('9')
+    end
   end
 end
