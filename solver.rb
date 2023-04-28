@@ -5,7 +5,7 @@ class Solver
   end
   
   def reverse(string) 
-
+    string.reverse 
   end 
 
 end
