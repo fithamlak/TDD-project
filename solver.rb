@@ -6,6 +6,10 @@ class Solver
   
   def reverse(string) 
     string.reverse 
+  end
+
+  def fizzbuzz(arg)
+    return 'fizz' if (arg % 3).zero?
   end 
 
 end
