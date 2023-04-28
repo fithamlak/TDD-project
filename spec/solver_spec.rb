@@ -6,7 +6,7 @@ describe Solver do
     it 'takes an argument' do
       s_obj = Solver.new
       arg = 0
-      Solver.factorial(arg)
+      s_obj.factorial(arg)
     end
   end
 end
