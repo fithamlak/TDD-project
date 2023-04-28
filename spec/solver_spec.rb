@@ -7,9 +7,9 @@ describe Solver do
       # Arrange
       s_obj = Solver.new
       arg = 0
-      #act
+      # act
       result = s_obj.factorial(arg)
-      #assert
+      # assert
       expect(result).to eq(1)
     end
 
@@ -22,7 +22,7 @@ describe Solver do
     end
   end
 
-   describe '#fizzbuzz' do
+  describe '#fizzbuzz' do
     it 'Return "fizz" When N is divisible by 3' do
       new_solver = Solver.new
       result = new_solver.fizzbuzz(3)
